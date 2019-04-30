@@ -25,8 +25,8 @@
 		Deal(col2);
 	}
   
-  
-  public void addToBeginning(Card card) {
+  // Adds card to the beginning of the stack
+  	public void addToBeginning(Card card) {
 		card.setXY(stackX, stackY);
 		cards.add(0, card);
 		
